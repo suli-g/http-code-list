@@ -1,7 +1,8 @@
-require('./lib/deep-sort')
+#! /usr/bin/env node
+require('../lib/deep-sort')
 const statusCodes = require('http-status-codes')
-const toNumbers = require('./lib/to-numbers')
-const listCodes = require('./lib/list-codes')
+const toNumbers = require('../lib/to-numbers')
+const listCodes = require('../lib/list-codes')
 
 let [,,...args] = process.argv
 
@@ -11,5 +12,3 @@ if (require.main === module) {
         .filter(toNumbers)
         .forEach(listCodes)
 }
-
-module.exports = statusCodes

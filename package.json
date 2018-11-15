@@ -2,10 +2,14 @@
   "name": "http-code-list",
   "version": "0.0.1",
   "description": "simple script to generate status codes in the command line",
-  "main": "index.js",
+  "main": "bin/run.js",
   "homepage": "https://github.com/suli-g/http-code-list#readme",
   "scripts": {
-    "http-codes": "node index.js"
+    "patch-release": "npm version patch && npm publish && git push --follow-tags",
+    "start": "node bin/run.js"
+  },
+  "bin": {
+    "http-codes": "bin/run.js"
   },
   "keywords": [
     "http",
