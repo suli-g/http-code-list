@@ -1,0 +1,19 @@
+{
+  "name": "http-code-list",
+  "version": "0.0.1",
+  "description": "simple script to generate status codes in the command line",
+  "main": "index.js",
+  "scripts": {
+    "http-codes": "node index.js"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "codes"
+  ],
+  "author": "suli-g <suligzus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-status-codes": "^1.3.0"
+  }
+}
