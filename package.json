@@ -1,6 +1,6 @@
 {
   "name": "http-code-list",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "simple script to generate status codes in the command line",
   "main": "index.js",
   "homepage": "https://github.com/suli-g/http-code-list#readme",
