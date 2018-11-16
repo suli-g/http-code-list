@@ -13,4 +13,4 @@ if (require.main === module) {
     .filter(fromArgs(args))
     .forEach(listCodes)
 }
-else module.exports = {httpCodes, args}
+else module.exports = {httpCodes}
