@@ -1,14 +1,14 @@
-* HTTP-CODE-LIST
+# HTTP-CODE-LIST
 Simple package to list http statuses with their codes in the CLI.
 
-* Installation:
+## Installation:
 `npm install --global http-code-list`
 --> Interface with the package using the `http-codes` CLI command.
 or
 `npm install --save-dev http-code-list`
 --> Interface with the package using the `npm run start` CLI command.
 
-* Usage:
+## Usage:
 
 **NOTE**: _Examples assume a global installation_
 1) Run the command:
